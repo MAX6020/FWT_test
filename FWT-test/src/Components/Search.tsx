@@ -3,14 +3,9 @@ import search_dark from "../assets/svg/search_dark.svg";
 import search_light from "../assets/svg/search_light.svg";
 import clear_dark from "../assets/svg/clear_dark.svg";
 import clear_light from "../assets/svg/clear_light.svg";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { searchSlice } from "../redux/slice/searchSlice";
 import { useAppDispatch, useAppSelector } from "../hooks/redux";
-import {
-  fetchAuthors,
-  fetchImages,
-  fetchLocations,
-} from "../redux/api/ActionCreators";
 
 interface IProps {
   theme: string;
