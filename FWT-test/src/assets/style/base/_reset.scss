@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  &:not(input){
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+}
+body{
+    transition: 0.3s ease;
+    background-color: var(--color-primary);
+}
+button{
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+h1{
+  font-family: "Cormorant SC", serif;
+  font-weight: 500;
+  font-style: normal;
+  color: var(--color-font);
+  font-size: 16px;
+}
+p{
+  color: var(--color-accent);
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+input{
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+span{
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+}
